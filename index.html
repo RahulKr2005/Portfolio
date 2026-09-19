@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="rahul.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Kumar | Portfolio</title>
+    <script>
+      // VS Code Live Server ("Go Live") compatibility:
+      // If running on a static server (e.g. port 5500 or file://) where Vite dev server is not active,
+      // seamlessly load the compiled production build from ./dist/index.html
+      if (
+        !window.location.pathname.includes('/dist/') &&
+        window.location.port !== '5173' &&
+        !window.__vite_plugin_react_preamble_installed__
+      ) {
+        window.location.replace('./dist/index.html');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
