@@ -92,6 +92,16 @@ export const ProjectsInfo = [
   },
   {
     id: 2,
+    title: "TaskFlow AI",
+    description: "AI-powered task and productivity management platform that helps users organize, prioritize, and track tasks efficiently through a clean and intelligent workflow.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    category: "Full Stack",
+    github: "https://github.com/RahulKr2005/Task-Flow-AI.git",
+    demo: "https://taskflowdevai.netlify.app/",
+    featured: true,
+  },
+  {
+    id: 3,
     title: "Task Management Application",
     description: "Complete task and workflow management application with user authentication, dynamic CRUD functionality, priority tagging (High, Medium, Low), search, and progress tracking.",
     tags: ["JavaScript", "HTML5", "CSS3", "CRUD", "Workflow Management"],
@@ -101,7 +111,7 @@ export const ProjectsInfo = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Neon Glow Tic-Tac-Toe Game",
     description: "Cyberpunk neon-themed interactive Tic-Tac-Toe game featuring glowing animations, two-player local gameplay, live win-streak tracking, and winning line highlights.",
     tags: ["JavaScript", "CSS Animations", "Game Logic", "Interactive UI"],

@@ -2,7 +2,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/rahul.jpeg';
 import { bioMessage } from '../../constants';
-import { FaGithub, FaLinkedin, FaDownload, FaPaperPlane } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaPaperPlane } from 'react-icons/fa';
 
 const About = () => {
   return (
