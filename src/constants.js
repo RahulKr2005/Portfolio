@@ -120,6 +120,16 @@ export const ProjectsInfo = [
     demo: "https://freetictacgame.netlify.app/",
     featured: true,
   },
+  {
+    id: 5,
+    title: "GreenGrid Smart Energy Management",
+    description: "A smart energy management system for monitoring electricity consumption, analyzing usage trends, estimating energy costs, and providing energy-saving insights.",
+    tags: ["React", "Django", "MySQL", "REST API", "Chart.js"],
+    category: "Full Stack",
+    github: "https://github.com/RahulKr2005/GreenGrid-Smart-Energy",
+    demo: "https://greengridsmartenergy.netlify.app",
+    featured: true,
+  },
 ];
 
 export const EducationInfo = [
